@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nikhil Reddy — Demo Resume Website</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; }
+    header { background: #222; color: #fff; padding: 25px; text-align: center; }
+    .container { width: 85%; margin: auto; padding: 25px; background: #fff; margin-top: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2); border-radius: 8px;}
+    h2 { color: #444; border-bottom: 2px solid #eee; padding-bottom: 4px;}
+    ul { margin-top: 4px; }
+    section { margin-bottom: 18px; }
+    a { color: #0077cc; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Nikhil Reddy</h1>
+  <p>B.Tech Electrical Engg | MERN Developer | Customer Success Tech | India</p>
+</header>
+
+<div class="container">
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:nikhil.reddy1308@gmail.com">nikhil.reddy1308@gmail.com</a></p>
+    <p>Phone: +91 96651059710</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/nikhil-reddy1308">linkedin.com/in/nikhil-reddy1308</a></p>
+  </section>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I am a final-year Electrical Engineering student transitioning into tech,
+      experienced with React, MERN stack, AWS basics, and customer-facing support.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills (Technical & Support)</h2>
+    <ul>
+      <li>Customer Support — Intercom, Email, Live Issue Handling</li>
+      <li>Frontend — HTML, CSS, React.js, Tailwind</li>
+      <li>Backend — Node.js, Express.js, MongoDB</li>
+      <li>AWS Basics, API Debugging, Web Troubleshooting</li>
+      <li>Tools — GitHub, VS Code, Postman, Slack</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <ul>
+      <li><b>Merchant Success Engineer — Appstle Inc. (Remote)</b><br>
+        Supported merchants with onboarding, UI fixes, AWS workflow issues, and platform navigation.
+      </li>
+      <br>
+      <li><b>MERN Developer — S2P Edutech</b><br>
+        Built UI modules, MongoDB schemas, and supported Agile product builds.
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Sample Task — Customer Success Demo</h2>
+    <p>
+      Below is an example of how I would respond to a merchant reporting a broken "Add to Cart" button:
+    </p>
+    <blockquote style="background:#eee;padding:10px;border-left:5px solid #444;">
+      <b>Response:</b><br>
+      Thank you for reporting this. I tested the button using Developer Tools and found a JavaScript error from theme.js.
+      Suggested fix — remove duplicate onclick handler and re-publish theme. Happy to guide step-by-step if needed!
+    </blockquote>
+  </section>
+
+  <footer style="margin-top: 45px; text-align:center; padding: 15px;">
+    © 2025 — Demo website created for GemCommerce job application
+  </footer>
+</div>
+
+</body>
+</html>
